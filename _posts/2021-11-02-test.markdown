@@ -1,0 +1,8 @@
+---
+layout: post
+image: https://upload.wikimedia.org/wikipedia/fr/thumb/d/d5/SUF_logo.svg/768px-SUF_logo.svg.png
+backgroundColor: "#F19C79"
+height: 200px
+---
+
+Cras auctor pulvinar tempus. Morbi vel porttitor neque. Quisque est arcu, euismod ac dolor vel, elementum lacinia felis. Aliquam quis purus odio. Sed tristique rhoncus risus, vitae mattis diam. Etiam lobortis malesuada ex ac malesuada. Praesent ultrices quam sit amet placerat fringilla. Mauris id egestas dui. Morbi ligula leo, varius ac purus eget, elementum dapibus diam. Aenean vitae augue eget nibh condimentum finibus a a metus. Maecenas dignissim nunc eu tellus ultrices eleifend ut in velit. In interdum dolor metus.

@@ -1,0 +1,32 @@
+---
+layout: haut-bas
+---
+
+{%- for post in site.posts -%}
+{% capture thecycle %}{% cycle "odd", "even" %}{% endcapture %}
+
+{% if thecycle == "odd" %}
+<div class="paragraphe-box" style="background-color: {{post.backgroundColor}};">
+    <div class="petite-image-container">
+        <img src="{{post.image}}" class="petite-image" style="max-height: {{post.height}};"/>
+    </div>
+    <div class="paragraphe-container">
+        <p>
+            {{post.content}}
+        </p>
+    </div>
+</div>
+{% else %}
+<div class="paragraphe-box" style="background-color: {{post.backgroundColor}};">
+    <div class="paragraphe-container">
+        <p>
+            {{post.content}}
+        </p>
+    </div>
+    <div class="petite-image-container">
+        <img src="{{post.image}}" class="petite-image" style="max-height: {{post.height}};"/>
+    </div>
+</div>
+{% endif %}
+
+{%- endfor -%}
