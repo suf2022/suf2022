@@ -3,25 +3,25 @@
 // Define defaults for each variable.
 
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size:   16px !default;
+$base-font-size:   25px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       rgb(0, 0, 0) !default;
-$background-color: #F6F4D2 !default;
+$text-color:       #62d0f3 !default;
+$background-color: #1e1e1e !default;
 $brand-color:      #2a7ae2 !default;
 
-$grey-color:       #5a5a5a !default;
+$grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    100% !default;
+$content-width:    800px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -41,43 +41,6 @@ $on-laptop:        800px !default;
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
-}
-
-.paragraphe-box{
-  height:auto;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.petite-image{
-  height:100%;
-  width: auto;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.petite-image-container{
-  display: flex;
-  justify-content: center;
-  flex:1;
-}
-
-.paragraphe-container{
-  padding-left: 20px;
-  padding-right: 20px;
-  display: flex;
-  align-items: center;
-  flex:2;
-}
-
-.sondage{
-  width: 600px;
-  height: 1250px;
 }
 
 // Import partials.

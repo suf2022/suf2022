@@ -1,6 +1,11 @@
 /**
  * Reset some basic elements
  */
+
+// .page{
+//   inset: 2em 2em 2em 2em;
+// }
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -8,7 +13,12 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
+h1 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 30px;
+}
 
 /**
  * Basic styling
@@ -26,6 +36,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  overflow: hidden;
 }
 
 
@@ -181,6 +192,11 @@ pre {
   margin-left: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 60px);
   @extend %clearfix;
 
   @include media-query($on-laptop) {

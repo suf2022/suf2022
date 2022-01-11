@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <!-- {%- include header.html -%} -->
+    <div style="display: none;">
+      <p id="after">{{page.after}}</p>
+      <p id="before">{{page.before}}</p>
+      <p id="title">{{page.title}}</p>
+      <p id="url">{{page.url_iframe}}</p>
+    </div>
+    <main class="page-content" aria-label="Content">
+      {{content}}
+    </main>
+    <!-- {%- include footer.html -%} -->
+
+  </body>
+  <script>//taille titre
+    if(document.querySelector("#title").textContent!="Électif 3 : DevWeb Front"){
+      var r = document.querySelector(':root');
+      r.style.setProperty('--typewriterCharacters', String(document.querySelector("#title").textContent.length));
+      console.log("style changé")
+    }
+  </script>
+  <script>//navigation with key
+  function onkeypress(e){
+    console.log(e.code)
+    if(e.code==="Space" || e.code==="ArrowRight"){
+      window.location.href = document.querySelector("#after").textContent;
+    }else if(e.code==="ArrowLeft"){
+      window.location.href = document.querySelector("#before").textContent;
+    }
+  }
+  document.addEventListener('keydown', onkeypress);
+  </script>
+  <script>
+    if(document.querySelector("#url").textContent!=""){
+      document.querySelector("#iframe").src=document.querySelector("#url").textContent;
+    }
+  </script>
+
+</html>
