@@ -176,10 +176,8 @@
  * Page content
  */
 .page-content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin:2em;
+  padding: $spacing-unit 0;
+  flex: 1;
 }
 
 .page-heading {

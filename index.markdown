@@ -1,8 +1,3 @@
 ---
-layout: fst-page
-title: "Électif 3 : DevWeb Front"
-subtitle: Tuto React
-after: ./pages/page-1.html
+layout: image-texte
 ---
-
-![logo React](./images/react-logo_2.jpg)
