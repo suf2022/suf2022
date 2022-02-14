@@ -1,0 +1,8 @@
+---
+layout: post
+image: https://upload.wikimedia.org/wikipedia/fr/thumb/d/d5/SUF_logo.svg/768px-SUF_logo.svg.png
+backgroundColor: "#CBDFBD"
+height: 200px
+---
+
+Si tu n'es pas déjà inscrit n'oublie pas de remplir le google form qui suit :
