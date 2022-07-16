@@ -1,15 +1,15 @@
 ---
 layout: post
 image: https://lh3.googleusercontent.com/pw/AM-JKLXCMx5-QatekdSjht-vnmCwVMuqYS7yJUZNf2NsRKv5AM2ZcD8O7_O5jiXJ6JFGIKtrKZRWoGQASgsn1Yfp5SjvZe7uxDYzE3Rh_IXa5v4-3obUA410cix7R8H7TQzGenj5VmGTedthoEAMdVncKQ0=w1652-h1101-no?authuser=0
-backgroundColor: "#79bff1"
-height: 200px
+backgroundColor: "#FFFACD"
+height: 300px
 ---
 
 Avertissement pour les réticents : Si tu crois que tu as tourné la page, que le scoutisme n’est qu’un moment de ton adolescence et que tu n’as plus l’âge de faire le guignol au fond des bois, ce week-end est pour toi ! Tout ancien scout, avec sa sensibilité et son histoire, sera le bienvenu. Chacun sera libre de participer à sa mesure au programme proposé !
 
 La contrainte : nous estimons qu’il est difficile d’organiser un week-end pour plus de 50 anciens scouts, donc ne tarde pas à réserver dès que tu seras décidé !
 
-Bientôt, un site internet donnera des précisions sur l’inscription et les détails pratiques en prévision de ce week-end.
+Sache déjà que nous comptons sur toi et que tu peux t'inscrire d'ici le 31 Juillet pour participer à tout ou partie du week-end. Mais tu sais déjà probablement déjà ce que tu fais fin août alors n'attends pas !
 
 Nous espérons te retrouver et raviver ensemble la flamme qui nous éclaira, celle de l'esprit scout !
 

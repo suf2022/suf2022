@@ -1,8 +1,8 @@
 ---
 layout: post
 image: https://lh3.googleusercontent.com/pw/AM-JKLXKPxr0W5bbuBy64IJLPrrbOWAYJKDQyCdl5BUnKhjv-LuTgtNkAy7LEPn9jMSK7gdpaV0zzBtVL1OyE69Pl3XjG17hEy1FUHPx3JPnuLiwUeA3CznOA0G3Tk6Ki_fp8Gietgh6Gf-sLpYUHCv0NIo=w1652-h1101-no?authuser=0
-backgroundColor: "#F19C79"
-height: 200px
+backgroundColor: "#FFFACD"
+height: 300px
 ---
 
 Et pour un peu de nostalgie, voici nos albums photos disponible via les liens suivants :
